@@ -25,7 +25,13 @@ word = "Cool"
 # Your code below:
 
 
-
+chars = "<<[]]]"
+chars = len(chars)
+print(chars)
+chars = "<<[]]]"
+word = "Cool"
+result = chars[0:3] + word + chars[3:6]
+print(result)
 
 
 
