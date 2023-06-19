@@ -23,8 +23,10 @@ word = "Cool"
 # Your code below:
 
 
-
-
+chars = "[[]]"
+word = "Cool"
+result = chars[0:2] + word + chars[2:4]
+print(result)
 
 
 
